@@ -73,7 +73,7 @@ public class Cuenta_Corriente {
 
     public void SetRegistro(float Valor, int Op){
 
-        if(this.IndexEvents<9) {
+        if(this.IndexEvents<10) {
             this.Hora=LocalTime.now();
             this.Fecha=LocalDate.now();
             switch (Op){
@@ -93,7 +93,7 @@ public class Cuenta_Corriente {
 
     public void ImprimirRegistro(){
 
-        for(int i=0;i<this.IndexEvents-1;i++)
+        for(int i=0;i<this.IndexEvents;i++)
             System.out.println(this.Eventos[i]);
     }
 }

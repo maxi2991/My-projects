@@ -34,9 +34,12 @@ public class Main {
         Nuevacuenta.setId();
         Nuevacuenta.setBalance(10000);
         Nuevacuenta.setUsuario(User);
+        Nuevacuenta.Extraer(2000);
+
         Nuevacuenta.Depositar(5000);
         Nuevacuenta.Depositar(3000);
-        Nuevacuenta.Extraer(2000);
+        Nuevacuenta.Extraer(1000);
+
         //Nuevacuenta.Extraer(20000);
         //Nuevacuenta.Imprimir();
         Nuevacuenta.ImprimirRegistro();

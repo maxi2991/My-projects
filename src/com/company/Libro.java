@@ -40,7 +40,7 @@ public class Libro {
     public void setAutor(Autor Escritor ){
 
 
-        if(IndexAutor<CANTAUTOR-1) {
+        if(IndexAutor<CANTAUTOR) {
             this.Escritores[IndexAutor] = Escritor;
             this.IndexAutor++;
         }
